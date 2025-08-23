@@ -6,7 +6,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
 # Load dataset
-heart_dataset = pd.read_csv("D:/Z/projects/heart disease/heart_disease_data.csv")
+heart_dataset = pd.read_csv("heart_disease_data.csv")
 
 # Split into features & target
 X = heart_dataset.drop(columns='target', axis=1)
